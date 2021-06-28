@@ -1,0 +1,2 @@
+model loss (deep seepage) [m**3/timestep] for all sub-basins (MAP-IDs)
+Year	Day	Timestep	15	69
