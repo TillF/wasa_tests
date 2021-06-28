@@ -1,0 +1,4 @@
+# Specification of the rainy season (per year)
+# for the interpolation of temporal distribution of vegetation characteristics (Rootdepth,height,lai,albedo)
+subbasin_id	veg_id	year	DOY1	DOY2	DOY3	DOY4
+-1	-1	-1	1	120		230	330

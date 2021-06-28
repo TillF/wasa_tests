@@ -1,0 +1,5 @@
+# Specification of the irrigation seasonality (per year)
+# for the interpolation of temporal distribution irrigation water
+subbasin_id	year	DOY1	DOY2	DOY3	DOY4
+15	-1	137	261	276	343
+69	-1	45	190	245	350

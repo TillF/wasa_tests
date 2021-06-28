@@ -1,0 +1,4 @@
+# Specification	of	river	parameters			
+Subbasin-ID, depth(m), width(m), side ratio (m/m), bottom width of floodplain (m), side ratio floodplains (m/m), channel slope(m/m), length(km), manningn (-), manningn_floddplain (-) Ksat(mm/hr), erodibilityfactor(-),coverfactor(-), riverbedrock(-),baseflowalphafactor(days), msk_x(-), Q_spring(m3/s) 
+15	1	5	2	100	4	0.006	7.4	0.02	0.05	25	0.1	1	0	0.1	0.2	4	0.1
+69	1	5	2	100	4	0.006	7.4	0.02	0.05	25	0.1	1	0	0.1	0.2	4	0.1

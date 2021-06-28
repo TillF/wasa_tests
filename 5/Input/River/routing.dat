@@ -1,0 +1,5 @@
+Specification of routing order (flow directions)
+No.	Subasin-ID(upstream)	Subasin-ID(downstream)
+20	15	69
+25	69	9999
+
