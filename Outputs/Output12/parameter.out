@@ -1,0 +1,39 @@
+
+./.\Input\                                                                                                                                                      
+./.\Output\                                                                                                                                                     
+ start year of simulation:         2000
+ end year of simulation:         2001
+ start of simulation (month, day):            2           1
+ end of simulation (month, day):            1          31
+ no. of sub-basin:            2
+ no. of combinations:           12
+ total no. of SOTER units:            2
+ total no. of terrain components:            6
+ total no. of soil components:            2
+ total no. of vegetation units:            2
+ do reservoir calculations:  T
+ T
+ F
+ T
+ T
+ F
+ F
+           0
+           0
+   15.0000000       0.00000000       1.00000000    
+  0.300000012    
+           0
+ T
+ F
+   1.00000000    
+ T
+           3
+ [not used]
+           3
+           1
+
+ spatial scale for application of erosion eq :  F
+ erosion eq :            3
+ WASA model, rev_271-0-g2cf8f84; repository date , built Wed 01:45
+ using prespecified outflow: F
+ using prespecified sediment flux: F

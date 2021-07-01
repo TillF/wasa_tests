@@ -1,0 +1,8 @@
+river reach suspended sediment weight status (for analysis or model re-start)
+Subbasin	particle_size_class	mass[t]
+15	1	0.000
+15	2	0.000
+15	3	0.000
+69	1	0.000
+69	2	0.000
+69	3	0.000
