@@ -1,0 +1,4 @@
+Specification of the sub-basins and their total number, type and areal fraction of SOTER units
+Subasin-ID[-]	Area[km**2]	nbr[-]	LU-ID[-]	areal_fraction_of_LU[-]
+15	23759.72	2	1	2	0.5	0.5
+69	24808.44	2	1	2	0.5	0.5

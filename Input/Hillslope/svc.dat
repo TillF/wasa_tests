@@ -1,0 +1,5 @@
+Specifications of soil vegetation components and erosion parameters
+id	soil_id	veg_id	musle_k[(ton acre hr)/(acre ft-ton inch)]	musle_c[-]	musle_p[-]	coarse_fraction[%]	manning_n	irrigation
+53	1016	45	0.166319584987491	8e-04	1	0.01689	0.2
+55	1027	55	0.166319584987491	0.25	1	0.01689	0.14
+57	1016	55	0.166319584987491	0.177	1	0.01689	0.177

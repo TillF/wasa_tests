@@ -1,0 +1,4 @@
+# Specification of sedimentation parameters of the sub-basin’s reservoir
+Subbasin-ID, dry_dens[ton/m**3], factor_actlay[-]
+15	1.5	1
+69	1.5	1

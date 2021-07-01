@@ -1,0 +1,4 @@
+Specification of vegetation parameters
+Veg-ID	Stomata_Resistance[s/m]	minsuction[hPa]	maxsuction[hPa]	height1[m]	height2[m]	height3[m]	height4[m]	rootdepth1[m]	rootdepth2[m]	rootdepth3[m]	rootdepth4[m]	LAI1[-]	LAI2[-]	LAI3[-]	LAI4[-]	albedo1[-]	albedo2[-]	albedo3[-]	albedo4[-]
+45	200	10000	30000	6	6	6	6	0.75	0.75	0.75	0.75	4	4	4	1	0.25	0.21	0.21	0.24
+55	175	10000	35000	1.05	1.05	1.05	1.05	0.5	0.5	0.5	0.5	1.9	1.9	0.15	1	0.28	0.25	0.25	0.27

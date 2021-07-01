@@ -1,0 +1,4 @@
+Water transpositions via canals or pipes between sub-basins, in order of routing scheme
+Start-Subbasin-ID, Flag(reservoir/river), Flow(m3/s,) Loss(%), Destination-Subbasin-ID, Flag (reservoir/river), begin_year
+        15         1      1.75      0.01        96         1      1965
+        69         2       2.4       0.1        31         1      1997
