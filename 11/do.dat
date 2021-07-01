@@ -2,9 +2,9 @@ Parameter specification for the WASA Model (SESAM-Project), generated with R-Pac
 .\Input\
 .\Output\
 2000 //tstart (start year of simulation)
-2000 //tstop (end year of simulation)
-1 //mstart (start month of simulation [optional: <space>start_day])
-12 //mstop (end month of simulation [optional: <space>end_day])
+2001 //tstop (end year of simulation)
+2 //mstart (start month of simulation [optional: <space>start_day])
+1 //mstop (end month of simulation [optional: <space>end_day])
 2	//no. of sub-basins
 12	//no. of combinations of sub-basins, landscape units, terrain components (TC-instances)
 2	//total no. of landscape units in study area
