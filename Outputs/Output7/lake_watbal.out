@@ -1,0 +1,1 @@
+Year, day, hour, totallakeinflow(m**3/timestep), totallakeoutflow(m**3/timestep), totallakeprecip(m**3/timestep), totallakeevap(m**3/timestep), lakevol(m**3)
