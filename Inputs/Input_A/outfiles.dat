@@ -55,6 +55,7 @@ lake_outflow
 lake_volume
 lake_retention
 lake_vollost
+lake_maxstorcap
 lake_sedinflow
 lake_sedoutflow
 lake_sizedistoutflow
