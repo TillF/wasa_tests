@@ -163,6 +163,8 @@ for l in general_results:
         print('Case ',c, ' : OK \n')
         result_file.writelines(['\n Case ', str(c), ' : OK \n'])
 
+
+result_file.close()
 #print(general_results)
 #print(result)
 #print(len(result))
