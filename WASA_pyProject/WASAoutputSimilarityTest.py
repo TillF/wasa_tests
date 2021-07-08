@@ -137,7 +137,7 @@ general_results = []
 
 result_file = open("test_results2", mode = 'w+')
 result_file.truncate()
-result_file.write('This file present the results of the comparison of the out files for version 1 and version 2. \n See what we get for each case of study : \n')
+result_file.write('This file present the results of the comparison of the out files for version 1 and version 2 made with the Python code WASAoutputSimilarityTest. \n See what we get for each case of study : \n')
 
 
 for k in range(11,11+nb_cases):
