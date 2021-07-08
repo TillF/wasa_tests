@@ -16,8 +16,8 @@ import pandas as pd
 ##### Getting the path into the Output folder of the case for the two versions we want to compare
 
 def test_path(folder_version1, folder_version2, case_nb):
-    path1 = '/Users/alicelegendre/Desktop/WASA_test/test_folder/%s/Outputs/Output%d'% (folder_version1, case_nb)
-    path2 = '/Users/alicelegendre/Desktop/WASA_test/test_folder/%s/Outputs/Output%d'% (folder_version2, case_nb)
+    path1 = '/Users/alicelegendre/Desktop/WASA/wasa_tests/WASA_pyProject/test_folder/%s/Outputs/Output%d'% (folder_version1, case_nb)
+    path2 = '/Users/alicelegendre/Desktop/WASA/wasa_tests/WASA_pyProject/test_folder/%s/Outputs/Output%d'% (folder_version2, case_nb)
     
     return path1, path2
 
@@ -137,6 +137,7 @@ general_results = []
 
 result_file = open("test_results2", mode = 'w+')
 result_file.truncate()
+result_file.write('This file present the results of the comparison of the out files for version 1 and version 2. \n See what we get for each case of study : \n')
 
 
 for k in range(11,11+nb_cases):
