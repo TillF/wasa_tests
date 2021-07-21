@@ -1,0 +1,35 @@
+
+1/../Inputs/Input_A/                                                                                                                                            
+1/../Outputs/Output1/                                                                                                                                           
+ start year of simulation:         2000
+ end year of simulation:         2001
+ start of simulation (month, day):            2           1
+ end of simulation (month, day):            1          31
+ no. of sub-basin:            2
+ no. of combinations:           12
+ total no. of SOTER units:            2
+ total no. of terrain components:            6
+ total no. of soil components:            2
+ total no. of vegetation units:            2
+ do reservoir calculations:  T
+ T
+ F
+ T
+ T
+ F
+ F
+           0
+           0
+   15.0000000       0.00000000       1.00000000    
+  0.300000012    
+           0
+ T
+ F
+   1.00000000    
+ F
+           3
+ [not used]
+           1
+           1
+ WASA model, rev_274-0-g309a527; repository date 2021-07-12 15:26:41 +0200, built Mon 02:18
+ using prespecified outflow: F

@@ -1,6 +1,6 @@
 Parameter specification for the WASA Model (SESAM-Project), generated with R-Package lumpR function db_wasa_input() version 3.0.48
 ../Inputs/Input_A/
-./Output/
+../Outputs/Output5/
 2000 //tstart (start year of simulation)
 2001 //tstop (end year of simulation)
 2 //mstart (start month of simulation [optional: <space>start_day])

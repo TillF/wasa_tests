@@ -1,0 +1,13 @@
+#control file for modification of WASA-parameters, to be used by runWASAwWarmup.R (read)
+parameter	value
+gw_delay_f	7.23343056085649
+soildepth_f	3.56775509784933
+kf_bedrock_f	1.34698400977401
+riverdepth_f	2.19732144752874
+kf_scale_f	0.00167384790520312
+ksat_factor	0.152688239250926
+f_wind	4.46587535315468
+f_gw_direct	0.792180528921329
+LAI_f	1.21007414984827
+rootd_f	2.72786283588343
+stomr_f	2.56737529747853

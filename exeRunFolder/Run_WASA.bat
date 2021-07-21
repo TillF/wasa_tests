@@ -1,0 +1,1 @@
+exeRunFolder\wasa.exe 2\do.dat > Outputs/Output2/Protocol.txt

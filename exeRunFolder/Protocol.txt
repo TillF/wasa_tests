@@ -1,0 +1,5 @@
+WASA model, rev_273-0-g3c865f2
+ repository date 2021-07-02 13:58:22 +0200, built Fri 12:24
+ :Initialization
+reading runtime parameters from 'G:/Documents/wasa_tests/1/do.dat'                                                                                                                              
+Error: Control file 'G:/Documents/wasa_tests/1/do.dat' could not be opened.

@@ -128,6 +128,7 @@ def comparisonBIG(namelist1, dflist1, namelist2, dflist2):
 
 """ CALCULATIONS """
 
+#"""
 new_version_folder = 'version1'
 old_version_folder = 'version2'
 nb_cases = 3
@@ -165,12 +166,8 @@ for l in general_results:
 
 
 result_file.close()
-#print(general_results)
-#print(result)
-#print(len(result))
 
-
-#print(error_calculation(0.262, 0.336))
+#"""
 
 
 
@@ -184,9 +181,10 @@ c=0 #counter
 
 result_file = open("test_results", mode = 'w+')
 result_file.truncate()
+result_file.write('This file present the results of the comparison of the out files for version 1 and version 2 made with the Python code WASAoutputSimilarityTest. \n See which files are different for each case of study : \n')
 
 for k in range(1,nb_cases+1):
-    p_new, p_old = right_path(new_version_folder, old_version_folder, k)
+    p_new, p_old = test_path(new_version_folder, old_version_folder, k)
     name_new, df_new = create_df_to_compare(p_new)
     name_old, df_old = create_df_to_compare(p_old)
     result = comparisonTF(name_new, df_new, name_old, df_old)
@@ -196,13 +194,15 @@ for k in range(1,nb_cases+1):
 for l in general_results:
     c+=1
     if l != 'OK':
-        print('Differences for case',c, ' : ', l, '\n \n')
-        result_file.writelines(['\n Differences for case',str(c), ' : ', str(l), '\n'])
+        print('Case ',c, ' : ERROR => ', l, '\n \n')
+        result_file.writelines(['\n Case ',str(c), ' : ERROR =>', str(l), '\n'])
     else :
-        print('OK for case',c, '\n')
-        result_file.writelines(['\n OK for case', str(c), '\n'])
+        print('Case ',c, ' : OK \n')
+        result_file.writelines(['\n Case ', str(c), ' : OK \n'])
 
-    
+
+result_file.close()
+
 #print(general_results)
 """    
 

@@ -1,6 +1,6 @@
 
-./.\Input\                                                                                                                                                      
-./.\Output\                                                                                                                                                     
+11/../Inputs/Input_A/                                                                                                                                           
+11/../Outputs/Output11/                                                                                                                                         
  start year of simulation:         2000
  end year of simulation:         2001
  start of simulation (month, day):            2           1
@@ -34,6 +34,6 @@
 
  spatial scale for application of erosion eq :  F
  erosion eq :            3
- WASA model, rev_271-0-g2cf8f84; repository date , built Wed 01:45
+ WASA model, rev_274-0-g309a527; repository date 2021-07-12 15:26:41 +0200, built Mon 02:18
  using prespecified outflow: F
  using prespecified sediment flux: F

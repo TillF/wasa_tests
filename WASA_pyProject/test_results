@@ -1,0 +1,152 @@
+
+This file presents the results of the similarity checking of the output files between the reference (benchmark) and the new version of WASA-SED by using the Python code WASAoutputSimilarityTest.
+NOTE: The file names which appear in the section -General issues- are not compared. We only compare the files which are possible to compare.  
+
+
+
+* Case 1 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     OK 
+
+
+* Case 2 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '25.0%'], ['water_subbasin.out', '100.0%'], ['daily_total_overlandflow.out', '87.0%'], ['actetranspiration.out', '25.0%'], ['gw_discharge.out', '25.0%'], ['total_overlandflow.out', '386523.0%'], ['gw_recharge.out', '32466.000000000004%']]
+
+
+* Case 3 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '37.0%'], ['water_subbasin.out', '38.0%'], ['deep_gw_recharge.out', '43.0%'], ['qhorton.out', '16844000.0%'], ['daily_total_overlandflow.out', '62559.0%'], ['daily_water_subbasin.out', '38.0%'], ['gw_discharge.out', '37.0%'], ['total_overlandflow.out', '62559.0%'], ['gw_recharge.out', '43.0%'], ['daily_subsurface_runoff.out', '37.0%'], ['deep_gw_discharge.out', '37.0%'], ['daily_water_subbasin2.out', '38.0%'], ['daily_qhorton.out', '16844000.0%']]
+
+
+* Case 4 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '25.0%'], ['water_subbasin.out', '100.0%'], ['daily_total_overlandflow.out', '87.0%'], ['actetranspiration.out', '25.0%'], ['gw_discharge.out', '25.0%'], ['total_overlandflow.out', '386523.0%'], ['gw_recharge.out', '32466.000000000004%']]
+
+
+* Case 5 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['daily_total_overlandflow.out', '23.0%'], ['total_overlandflow.out', '23.0%']]
+
+
+* Case 6 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '25.0%'], ['water_subbasin.out', '100.0%'], ['daily_total_overlandflow.out', '87.0%'], ['actetranspiration.out', '25.0%'], ['gw_discharge.out', '25.0%'], ['total_overlandflow.out', '386523.0%'], ['gw_recharge.out', '32466.000000000004%']]
+
+
+* Case 7 :
+   - General issues : 
+
+    The file(s) spinfo.ini,  is (are) missing in the new version.
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '37.0%'], ['water_subbasin.out', '38.0%'], ['deep_gw_recharge.out', '43.0%'], ['qhorton.out', '16844000.0%'], ['daily_total_overlandflow.out', '62559.0%'], ['daily_water_subbasin.out', '38.0%'], ['gw_discharge.out', '37.0%'], ['total_overlandflow.out', '62559.0%'], ['gw_recharge.out', '43.0%'], ['daily_subsurface_runoff.out', '37.0%'], ['deep_gw_discharge.out', '37.0%'], ['daily_water_subbasin2.out', '38.0%'], ['daily_qhorton.out', '16844000.0%']]
+
+
+* Case 8 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['deep_gw_recharge.out', '135.0%'], ['gw_recharge.out', '135.0%']]
+
+
+* Case 9 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['daily_total_overlandflow.out', '23.0%'], ['total_overlandflow.out', '23.0%'], ['daily_sediment_production.out', '47.0%']]
+
+
+* Case 10 :
+   - General issues : 
+
+    The file(s) qhorton.out,  is (are) present in the new version but missing in the reference.
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '25.0%'], ['water_subbasin.out', '100.0%'], ['daily_total_overlandflow.out', '87.0%'], ['actetranspiration.out', '25.0%'], ['gw_discharge.out', '25.0%'], ['total_overlandflow.out', '386523.0%'], ['daily_sediment_production.out', '100.0%'], ['gw_recharge.out', '32466.000000000004%'], ['sediment_production.out', '1000.0%']]
+
+
+* Case 11 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['daily_total_overlandflow.out', '23.0%'], ['total_overlandflow.out', '23.0%'], ['daily_sediment_production.out', '47.0%']]
+
+
+* Case 12 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['daily_total_overlandflow.out', '23.0%'], ['total_overlandflow.out', '23.0%'], ['daily_sediment_production.out', '47.0%']]
+
+
+* Case 13 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['daily_total_overlandflow.out', '23.0%'], ['total_overlandflow.out', '23.0%'], ['daily_sediment_production.out', '47.0%']]
+
+
+* Case 14 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     OK 
+
+
+* Case 15 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '184.0%'], ['qhorton.out', '128090000.0%'], ['daily_total_overlandflow.out', '469571.0%'], ['daily_actetranspiration.out', '213.0%'], ['daily_sediment_production.out', '9003525.0%'], ['deep_gw_discharge.out', '184.0%'], ['River_Sediment_total.out', '5994140.0%'], ['water_subbasin.out', '234.0%'], ['deep_gw_recharge.out', '5634600.0%'], ['actetranspiration.out', '213.0%'], ['daily_water_subbasin.out', '234.0%'], ['gw_discharge.out', '184.0%'], ['total_overlandflow.out', '469571.0%'], ['gw_recharge.out', '5634600.0%'], ['daily_subsurface_runoff.out', '184.0%'], ['daily_water_subbasin2.out', '234.0%'], ['daily_qhorton.out', '128090000.0%']]
+
+
+* Case 16 :
+   - General issues : 
+
+
+   - Data comparison result : 
+
+     ERROR =>[['subsurface_runoff.out', '37.0%'], ['water_subbasin.out', '38.0%'], ['deep_gw_recharge.out', '43.0%'], ['qhorton.out', '16844000.0%'], ['daily_total_overlandflow.out', '62559.0%'], ['daily_water_subbasin.out', '38.0%'], ['gw_discharge.out', '37.0%'], ['total_overlandflow.out', '62559.0%'], ['daily_sediment_production.out', '598682.0%'], ['gw_recharge.out', '43.0%'], ['daily_subsurface_runoff.out', '37.0%'], ['deep_gw_discharge.out', '37.0%'], ['daily_water_subbasin2.out', '38.0%'], ['daily_qhorton.out', '16844000.0%'], ['River_Sediment_total.out', '96350.0%']]
