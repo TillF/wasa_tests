@@ -214,8 +214,8 @@ threshold = 20 #%
 #os.chdir('G:/Documents/wasa_tests/WASA_pyProject') #already there because this is where the code is
 resultTextFile = open("test_results", mode = 'w+') #create the file or open it if it already exists
 resultTextFile.truncate() #delete what there is written in the file
-resultTextFile.write('\nThis file presents the results of the similarity checking of the output files between the reference (benchmark) and the new version of WASA-SED by using the Python code WASAoutputSimilarityTest.')
-resultTextFile.write('\nNOTE: The file names which appear in the section -General issues- are not compared. We only compare the files which are possible to compare.  \n\n')
+resultTextFile.write('\nThis file presents the results of the similarity checking of the output files between the reference (benchmark) and the new version of WASA-SED by using the Python code WASAoutputSimilarityTest_v2.')
+resultTextFile.write('\nNOTE: The file names which appear in the section -General issues- are not compared. We only compare the files which can be compared.  \n\n')
 
 for k in range(1,nb_cases+1):
     #RUNexe(k) #it runs the WASA-SED for each case of study 
