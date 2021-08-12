@@ -227,7 +227,6 @@ for k in range(1,nb_cases+1):
     resultTextFile.write('   - General issues : \n\n')
     if IFPmessage != []:
         for l in IFPmessage:
-            #print(l,'\n')
             resultTextFile.writelines([l, '\n\n']) #write the error message into the text file
         res = MainLoop(pathRef, pathNew,listOfName, threshold, resultTextFile)
     else:
@@ -235,10 +234,8 @@ for k in range(1,nb_cases+1):
          
     resultTextFile.write('\n   - Data comparison result : \n')
     if res != []: #res will contain a list of lists such as [[filename, 22%], [filename2, 50%]]
-        #print('Case ',k, ' : ERROR => ', res, '\n \n')
         resultTextFile.writelines(['\n     ERROR =>', str(res), '\n'])
     else : #that means res=[] and so we did not keep a file name with an error so => all the files are identical for this case k
-        #print('Case ',k, ' : OK \n')
         resultTextFile.writelines(['\n     OK \n'])
 
 resultTextFile.close()
